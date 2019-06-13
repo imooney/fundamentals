@@ -1,0 +1,3 @@
+This repo will hopefully grow into a collection of projects that can be used as brick and mortar for any jet physics analysis.
+Currently, it contains only CompileRoot/ which is basically just a few scripts for compiling macros with ROOT dependencies and running them on the WSU Grid nodes. However, it will really serve as a high-level modular template for any analysis afterburner (i.e. jet trees have been created, now do e.g. unfolding, systematics, etc.). 
+Stay tuned for more...!
