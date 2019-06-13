@@ -13,3 +13,5 @@ To use this code:
    1) the file “macros/runroot” needs to be included in the path, e.g. “export PATH=~/fundamentals/CompileRoot/macros/:{PATH}” in your config file (e.g. bashrc, cshrc, …)
    2) input files must be generated. This can be accomplished by running “runroot produce_file_for_tests && ./bin/produce_file_for_tests”. This will produce “file1” and “file2” which are used as inputs. Of course, you are free to make your own input file(s) via whatever means you prefer.
    3) if you don’t have access to the WSU RHIG nodes on the WSU HPC Grid (or to the Grid itself), the “qsub” line of the submit script will need to be changed. If not using the RHIG nodes, simply remove -q erhiq. If not using the Grid at all, you’ll need to change the line to whatever job scheduler syntax is required on your setup.
+   4) to make some of the necessary directories, run "mkdir log out macros/bin macros/obj".
+   
